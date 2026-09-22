@@ -52,6 +52,7 @@ El sistema permite registrar propietarios, mascotas y consultas veterinarias.
 También cuenta con filtros, paginación, autenticación y permisos para controlar el acceso a algunos endpoints.
 
 
+<<<<<<< HEAD
 ## reflexion 
 Cuando Postman manda el POST a la URL, esta lo pasa a la View. La vista recibe los datos y los envía al Serializer para hacer la validación. Si todo está bien, el Serializer usa el Model a través del ORM para guardar la información en la base de datos. Por último, la vista devuelve una Response en JSON confirmando que la consulta se registró con éxito.
 
